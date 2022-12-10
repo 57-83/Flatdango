@@ -10,8 +10,9 @@ Flatiron Movie Theater is open for business! You will be building out an applica
 
 ## setup
 clone from app[here](https://github.com/57-83/Flatdango)
+
 Run this command to get the backend started:
- $ json-server --watch db.json
+ `json-server --watch db.json`
 
 Test your server by visiting this route in the browser:
   http://localhost:3000/films
