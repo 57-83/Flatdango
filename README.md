@@ -28,10 +28,9 @@ Write your code in the index.js file. The base URL for your API will be
    `tickets_sold` from the theater's `capacity`. You will need to make a GET
    request to the following endpoint to retrieve the film data:
 
-   
-   GET /films/1
+   `GET /films/1
+   Example Response:
 
-   `Example Response:
    {
      "id": "1",
      "title": "The Giant Gila Monster",
@@ -54,9 +53,8 @@ Write your code in the index.js file. The base URL for your API will be
    film data:
 
 
-   GET /films
-
-   `Example response:
+   `GET /films
+   Example response:
    [
       {
         "id": "1",
