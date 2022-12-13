@@ -41,8 +41,11 @@ As a user, I can:
   request to the following endpoint to retrieve the film data:
 ​
 ​
+  
    GET /films/1
+
    Example Response:
+
    `{
      "id": "1",
 ​
@@ -61,6 +64,7 @@ As a user, I can:
      terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
    }`
+   
 ​
 ​
 2. See a menu of all movies on the left side of the page in the `ul#films`
@@ -72,9 +76,13 @@ As a user, I can:
   will need to make a GET request to the following endpoint to retrieve the
   film data:
 ​
+
 ​
    `GET /films
+
    Example response:
+   
+   
    [
       {
         "id": "1",
@@ -122,6 +130,7 @@ As a user, I can:
 ​
 ​
   ## Bonus Deliverables
+  
 These bonus deliverables are here if you want an extra challenge and won't
 affect your score. **Make sure to commit your work to save your progress before
 attempting the bonus deliverables!**
@@ -135,8 +144,10 @@ attempting the bonus deliverables!**
    Out". Also update the film item in the `ul#films` menu by adding a class of
    `sold-out` to the film. For reference, here's what the contents of the
    `ul#films` element should look like with a sold out film:
+
 ​
    ```html
+   
    <li class="film item">(Title of film)</li>
    <li class="sold-out film item">(Title of a sold-out film)</li>
    <li class="film item">(Title of film)</div>
